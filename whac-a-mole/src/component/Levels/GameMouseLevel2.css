@@ -1,0 +1,141 @@
+.back-Button-medium {
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  box-shadow: 0px 2px 16px black;
+}
+
+.back-Button-medium:hover { background-color: #0056b3; }
+
+.back-Button-medium:focus { outline: none; }
+
+.main-container-level2 {
+  margin-top: 165px;
+  position: relative;
+  height: 90%;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 100px;
+  background-color: #262626;
+  box-shadow: 2px 2px 12px black;
+  border: 1px solid white;
+}
+
+.game-title-level2 {
+  display: inline block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 300px;
+  font-size: 28px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 18px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 12px 5px black;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 2px 2px 12px 5px black;
+  }
+  50% {
+    transform: scale(1.2);
+    box-shadow: 2px 2px 18px 10px black;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 2px 2px 12px 5px black;
+  }
+}
+
+.game-title-level2:hover {
+  background-color: #d41f1f;
+  color: white;
+  transition: 0.4s;
+  text-shadow: -5px -1px 15px black;
+}
+
+.start-button-level2 {
+  margin-top: 40px;
+  border: 2px solid white;
+  font-size: 1.5em;
+  border-radius: 18px;
+  box-shadow: 2px 2px 18px white;
+  padding: 10px 15px;
+  margin-left: 10px;
+  color: white;
+  background-color: #d41f1f;
+}
+
+.start-button-level2:hover {
+  font-size: 1.6em;
+  box-shadow: 2px 2px 18px black;
+  background-color: #ff6b6b;
+}
+
+.game-container-level2 {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  border-radius: 18px;
+  border: 2px solid white;
+  color: white;
+  font-size: 68px;
+  margin: 30px 10px 10px 10px;
+  padding: 10px;
+  background-color: #4c4c4c;
+  box-shadow: 2px 2px 18px black;
+}
+
+.Inner-box-level2 {
+  border: 2px solid white;
+  margin: 20px 10px;
+  padding: 5px;
+  font-size: 0.5em;
+  box-shadow: 2px 2px 18px black;
+  background-color: #4c4c4c;
+  border-radius: 18px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.level2-part-2 {
+  margin-left: 40px;
+  animation-name: pulse-p;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  width: 400px;
+}
+@keyframes pulse-p {
+  0% {
+    transform: scale(0.7);
+    box-shadow: 2px 2px 12px 5px black;
+  }
+  50% {
+    transform: scale(0.8);
+    box-shadow: 2px 2px 18px 10px black;
+  }
+  100% {
+    transform: scale(0.7);
+    box-shadow: 2px 2px 12px 5px black;
+  }
+}
+.level2-part-2 p {
+  margin-top: 70px;
+  margin-left: 25px;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 12px 12px 28px black;
+}

@@ -1,0 +1,86 @@
+.contact-us-container {
+    position: relative;
+    top: 125px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 16px black;
+  }
+  
+  .contact-us-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-us-text {
+    margin-bottom: 20px;
+    color: #0b0b0b;
+  }
+  
+  .contact-us-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-us-form .form-control {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 6px black;
+    margin-bottom: 16px;
+  }
+  
+  .contact-us-form textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 16px black;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .submit-button:focus {
+    outline: none;
+  }
+  
+  .back-Button-contactUs {
+    margin:10px ;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    box-shadow: 0px 2px 16px black;
+  }
+  
+  .back-Button-contactUs:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-Button-contactUs:focus {
+    outline: none;
+  }
+  

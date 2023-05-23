@@ -1,0 +1,117 @@
+.back-Button-level {
+  position: relative;
+  top: -350px;
+  left: -190px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  box-shadow: 0px 2px 16px black;
+}
+
+.back-Button-aboutUs:hover {
+  background-color: #0056b3;
+}
+
+.back-Button-aboutUs:focus {
+  outline: none;
+}
+.level-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #262626;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 98px blueviolet;
+  border-radius: 10px;
+}
+
+.levels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  perspective: 500px;
+  margin: 100px;
+  border: 1px solid black;
+  padding: 20px;
+  box-shadow: 2px 2px 12px black;
+}
+
+/* Rest of the CSS styles for emojis and button labels */
+
+.emoji {
+  font-size: 4rem;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.levels:hover .emoji {
+  transform: translateZ(30px);
+}
+
+.emoji-bounce {
+  animation: bounce 1s infinite;
+}
+
+.emoji-rotate {
+  animation: rotate 2s infinite linear;
+}
+
+.emoji-pulse {
+  animation: pulse 1s infinite;
+  margin-bottom: 3px;
+}
+
+.button-label {
+  margin-top: 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}

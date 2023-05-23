@@ -1,0 +1,46 @@
+.start-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #262626;
+  }
+  
+  .start-heading {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .start-button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #371fd4;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .start-button:hover {
+    transform: scale(1.1);
+    background-color: #ff6b6b;
+  }
+  
+  @media (max-width: 480px) {
+    .start-heading {
+      font-size: 2rem;
+    }
+    
+    .start-button {
+      padding: 0.8rem 1.6rem;
+      font-size: 1.2rem;
+    }
+  }
+  
